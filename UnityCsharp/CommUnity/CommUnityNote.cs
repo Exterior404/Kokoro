@@ -50,8 +50,8 @@ public class CommUnityNote : MonoBehaviour
  04 IF 語句         IfStatements
  05 For Loop*
  06 作用域和訪問修飾符ScopeAndAccessModifiers
- 07
- 08
+ 07 Awake & Start   AwakeAndStart
+ 08 Update & Fixed* UpdateAndFixedUpdate
  09
  10
  11
