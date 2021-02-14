@@ -16,8 +16,8 @@
  15 Destroy         DestroyBasic
  16 GetButton GetKey 返回傳的是 Bool
  17 GetAxis*         傳回的則是 float -1~1
- 18
- 19
+ 18 OnMouseDown     void On...
+ 19 GetComponent    UsingOtherComponents
  20
  21
  22
