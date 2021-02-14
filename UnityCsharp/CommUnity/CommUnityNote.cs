@@ -18,7 +18,7 @@
  17 GetAxis*         傳回的則是 float -1~1
  18 OnMouseDown     void On...
  19 GetComponent    UsingOtherComponents
- 20
+ 20 DeltaTime       UsingDeltaTime
  21
  22
  23
