@@ -19,7 +19,7 @@
  18 OnMouseDown     void On...
  19 GetComponent    UsingOtherComponents
  20 DeltaTime       UsingDeltaTime
- 21
+ 21 DataTypes數據類型DataTypeScript
  22
  23
  24
