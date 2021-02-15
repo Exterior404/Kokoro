@@ -20,8 +20,8 @@
  19 GetComponent    UsingOtherComponents
  20 DeltaTime       UsingDeltaTime
  21 DataTypes數據類型DataTypeScript
- 22
- 23
+ 22 類 Class         Inventory
+ 23 Instantiate     UsingInstantiate
  24
  25
  26
