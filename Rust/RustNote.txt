@@ -1,0 +1,5 @@
+Rust
+更新		rustup update
+卸載		rustup self uninstall
+版本		rustc --version
+文本		rustup doc
