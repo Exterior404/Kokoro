@@ -22,12 +22,29 @@
  21 DataTypes數據類型DataTypeScript
  22 類 Class         Inventory
  23 Instantiate     UsingInstantiate
- 24
- 25
- 26
- 27
+ 24 Arrays數組        UsingArrayScript
+ 25 Inovke           UsingInvokeScript
+ 26 Enum枚舉          CardinalDirection
+ 27 Switch          沒發現不同處
  */
 
 /*  C#中級教程
  01
+ 02
+ 03
+ 04
+ 05
+ 06
+ 07
+ 08
+ 09
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
  */
