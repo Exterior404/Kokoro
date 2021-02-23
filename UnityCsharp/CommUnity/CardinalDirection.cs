@@ -25,6 +25,8 @@ public class CardinalDirection : MonoBehaviour
         DireCtion1 myDireCtion1;
         myDireCtion1 = DireCtion1.北;
 
+        Debug.Log(string.Format("目前的變數內容是 : {0}",myDireCtion1));
+
         Debug.Log(ByteEnum.不可);
         Debug.Log(ErrorCode.Unknown);
     }
