@@ -2,11 +2,11 @@
 using System.Collections;
 
 public class ScopeAndAccessModifiers : MonoBehaviour
-{
+{//C#初級 06 作用域和訪問修飾符
     public int alpha;
 
-    private int beta = 0;
-    private int gamma = 5;
+    //private int beta = 0;
+    //private int gamma = 5;
 
     private AnotherClass myOtherClass;
 
