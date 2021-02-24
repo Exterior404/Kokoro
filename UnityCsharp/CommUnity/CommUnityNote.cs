@@ -30,7 +30,7 @@
 
 /*  C#中級教程
  01 創建屬性Properties  usingProperties
- 02 三元運算符
+ 02 三元運算符           TernaryOperator
  03 靜態
  04 方法重載
  05 通用
