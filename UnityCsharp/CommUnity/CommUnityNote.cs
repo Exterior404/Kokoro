@@ -31,7 +31,7 @@
 /*  C#中級教程
  01 創建屬性Properties  usingProperties
  02 三元運算符           TernaryOperator
- 03 靜態
+ 03 靜態Statics       靜態方法屬於類 靜態不可實例
  04 方法重載
  05 通用
  06 繼承
