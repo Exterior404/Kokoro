@@ -32,9 +32,9 @@
  01 創建屬性Properties  usingProperties
  02 三元運算符           TernaryOperator
  03 靜態Statics       靜態方法屬於類 靜態不可實例
- 04 方法重載
- 05 通用
- 06 繼承
+ 04 方法重載 Overload   UsingOverload
+ 05 通用 Generics 泛型  UsingTtype
+ 06 繼承 Inheritance  父Parent子Child
  07 多態
  08 成員隱藏
  09 覆寫
