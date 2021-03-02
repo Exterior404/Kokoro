@@ -35,8 +35,8 @@
  04 方法重載 Overload   UsingOverload
  05 通用 Generics 泛型  UsingTtype
  06 繼承 Inheritance  父Parent子Child
- 07 多態
- 08 成員隱藏
+ 07 多態 Polymorphism     UsingPolymorphism
+ 08 成員隱藏 在變量前寫new
  09 覆寫
  10 接口
  11 擴展方法
