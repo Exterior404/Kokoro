@@ -46,5 +46,5 @@
  15 四元數             歐拉角
  16 委託              DelegateScript
  17 特性              特性Range & ExecutelnEditMode
- 18 事件
+ 18 事件              事件比 委託安全 只能訂不訂
  */
