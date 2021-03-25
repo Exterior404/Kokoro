@@ -1,0 +1,2 @@
+
+Split(new char【】 {'\r', '\n'},System.StringSplitOptions.RemoveEmptyEntries);
