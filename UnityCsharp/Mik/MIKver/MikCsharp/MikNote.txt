@@ -10,3 +10,5 @@
 類型轉換
 強制轉型
 TryParse
+UI text
+ToString
