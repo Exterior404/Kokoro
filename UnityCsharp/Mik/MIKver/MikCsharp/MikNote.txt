@@ -18,3 +18,4 @@ ToString
 邏輯表達示
 類別的建構方法
 GetComponent
+GameObject
