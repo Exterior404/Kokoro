@@ -19,3 +19,7 @@ ToString
 類別的建構方法
 GetComponent
 GameObject
+方法宣告-
+方法重載-
+繼承1-
+繼承2-
