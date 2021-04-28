@@ -13,3 +13,4 @@ public class Mi21 : MonoBehaviour
         //cat.catAge = 123;
     }// 有多層級就 上/中/下
 }
+//把Cat腳本掛一下在 MikObject
