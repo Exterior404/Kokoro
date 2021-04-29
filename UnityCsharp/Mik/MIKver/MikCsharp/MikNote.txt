@@ -25,3 +25,9 @@ GameObject
 繼承2-
 繼承重載
 繼承隱藏
+if條件式
+if
+if
+if
+switch
+switch
