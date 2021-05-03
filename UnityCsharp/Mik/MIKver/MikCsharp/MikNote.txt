@@ -31,3 +31,8 @@ if
 if
 switch
 switch
+while
+while
+do while
+do while
+for loop
