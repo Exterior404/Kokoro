@@ -36,3 +36,5 @@ while
 do while
 do while
 for loop
+巢狀迴圈
+巢狀迴圈2
