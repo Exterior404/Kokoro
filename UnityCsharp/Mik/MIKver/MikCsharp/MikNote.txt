@@ -38,3 +38,6 @@ do while
 for loop
 巢狀迴圈
 巢狀迴圈2
+陣列
+陣列2
+Foreach
