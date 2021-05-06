@@ -24,5 +24,26 @@ public class Mi40 : MonoBehaviour
         int temp = array_a.Length;
 
         Debug.Log("此陣列長度是" + temp);
+
+        Ex01();
+    }
+
+    void Ex01()
+    {
+        int[] arr = new int[]{ 1, 2, 3, 4, 5 };
+
+        for (int i = 0; i < 5; i++) {
+            Debug.Log(arr[i]);
+        }
+
+        foreach (int x in arr) {
+            Debug.Log(x);
+        }
+
+        #region for foreach
+        /*優點
+        使用foreach 不需要知道元素數量
+        使用for loop 必須要知道元素數量 才能確定範圍*/
+        #endregion
     }
 }
