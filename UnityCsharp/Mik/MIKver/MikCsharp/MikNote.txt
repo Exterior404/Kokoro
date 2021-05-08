@@ -42,3 +42,5 @@ for loop
 陣列2
 Foreach
 二維陣列
+二為陣列2
+ArrayList
