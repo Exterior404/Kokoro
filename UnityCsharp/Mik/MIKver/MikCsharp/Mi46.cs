@@ -11,8 +11,7 @@ public class Mi46 : MonoBehaviour
     int column = 0;
     int[,] array2d = new int[3, 4] { { 2, 4, 6, 8 }, { 5, 6, 7, 8 }, { 10, 12, 25, 11 } };
 
-    void Start()
-    {
+    void Start() {
         #region 初始化方法
         ArrayList list_a = new ArrayList();
         ArrayList list_b = new ArrayList(array_b);
@@ -28,6 +27,30 @@ public class Mi46 : MonoBehaviour
         Debug.Log(b);//2
         Debug.Log(list[0]);//10
         Debug.Log(list.Count);//3
+
+        Capacity();
+    }
+
+    void Capacity()
+    {// list.Capacity
+        /* 計算容量方法
+         該方法用來將物件添加
+         到ArrayList集合的結尾處
+
+        原型
+        public virtual intCapacity{get;set; }
+
+        返回值為 int 代表填入object的編號
+         */
+
+        ArrayList list = new ArrayList(10);
+        list.Add(1);
+        list.Add(1);
+
+        //實際元素的個數
+        Debug.Log(list.Count);
+        //陣列的初始容量
+        Debug.Log(list.Capacity);
     }
 }
 /* Note
