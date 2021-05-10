@@ -1,0 +1,26 @@
+VS裡 找API 點選KEY 按F12
+Learn 官方網站的這字可以找教程
+
+佇列(Queue)常用的方法如下
+名稱 	說明
+Count 	取得佇列中目前的項目數量
+Dequeue 從佇列前端取出一個項目，同時將其移除
+Enqueue 從佇列尾端加入一個項目
+Peek 	從佇列前端取出一個項目，但不移除
+
+ 
+
+堆疊(Stack)常用的方法如下
+名稱 	說明
+Count 	取得堆疊中目前的項目數量
+Pop 	從堆疊最頂端取出一個項目，同時將其移除
+Push 	從堆疊最頂端加入一個項目
+Peek 	從堆疊最頂端取出一個項目，但不移除
+
+count
+Add(int, string)
+Remove(int)
+ContainsKey(int)
+ContainsValue(stromg)
+TrygetValue(int, out str) (str要容器)
+Clear()
