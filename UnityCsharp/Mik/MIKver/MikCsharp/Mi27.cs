@@ -42,7 +42,7 @@ namespace Mik {//隱藏 衍生類使用的基類方法
                 Debug.Log("電動車的改寫啟動方法");
             }
 
-            new public void AddOil(string str) {
+            public new void AddOil(string str) {
                 Debug.Log("加油的的方法被隱藏" + str);
             }//隱藏
         }
