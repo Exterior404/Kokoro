@@ -11,6 +11,7 @@ public class Mi11 : MonoBehaviour
         EX01();
         EX02();
         EX03();
+        EX04();
     }
 
     void EX01()
@@ -46,5 +47,41 @@ public class Mi11 : MonoBehaviour
     void EX03()
     {
         Debug.Log("Empty = " + str);
+    }
+
+    void EX04()
+    {
+        int a;
+        float b;
+        string str1 = "12345";
+        string str2 = "1.23";
+        string str3 = "NF02";
+
+        bool isWork1;
+        bool isWork2;
+        bool isWork3;
+        int v;
+        float k;
+
+        a = int.Parse(str1);
+        b = float.Parse(str2);
+        Debug.Log("a=" + a);
+        Debug.Log("b=" + b);
+        //布林參考值
+        isWork1 = int.TryParse(str1, out v);
+        isWork2 = float.TryParse(str2, out k);
+        isWork3 = int.TryParse(str3, out v);
+        print("第一組數值");
+        Debug.Log(isWork1);
+        Debug.Log(str1);
+        Debug.Log(v);
+        print("第二組數值");
+        Debug.Log(isWork2);
+        Debug.Log(str2);
+        Debug.Log(k);
+        print("第三組數值");
+        Debug.Log(isWork3);
+        Debug.Log(str3);
+        Debug.Log(v);
     }
 }
