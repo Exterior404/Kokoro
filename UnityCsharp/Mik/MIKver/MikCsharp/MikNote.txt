@@ -44,3 +44,4 @@ Foreach
 二維陣列
 二為陣列2
 ArrayList
+List<T>Array
