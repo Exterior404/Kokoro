@@ -1,0 +1,32 @@
+C#資料類型
+.NET的所有類型都是由基礎類
+System.Object繼承過來
+包括最常用的基礎類型
+int byte short bool..
+也就是說所有的都是物件
+
+如果宣告這些類型的時候
+都在heap中分配記憶體
+會造成極低的效率
+
+.NET如何解決這個問題的
+正是通過將類型分成
+實值類型 ValueType
+參考類型 ReferenceType
+
+C#中定義的
+實值類型包括
+簡單型 byte sbyte short ushort
+int uint long ulong bool decimal
+列舉 enum
+結構 struct
+
+參考類型
+類別 class
+陣列 array
+介面 interface
+委派 delegate
+字串 string ..
+
+實值放在 stack 疊
+參考放在 heap 堆裡
