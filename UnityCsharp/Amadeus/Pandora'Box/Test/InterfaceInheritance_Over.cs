@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace NF.Test
 {
-    public partial class InterfaceInheritance_Par : InterfaceInheritance_Base
+    sealed partial class InterfaceInheritance_Par : InterfaceInheritance_Base
     {
         public override void Base01()
         {
