@@ -46,3 +46,6 @@ Foreach
 ArrayList
 List<T>Array
 Stack堆疊
+-
+struct & enum
+Reference
