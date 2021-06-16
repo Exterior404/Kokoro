@@ -49,3 +49,4 @@ Stack堆疊
 -
 struct & enum
 Reference
+Static
