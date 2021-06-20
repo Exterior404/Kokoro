@@ -49,7 +49,23 @@ public class Mi53 : MonoBehaviour
         keyCollection.CopyTo(arrayInt, 0);
         Debug.Log(arrayInt.Length);
 
+        foreach (var item in keyCollection)
+        {
+            Debug.Log(item);
+        }
+
         valueCollection.CopyTo(arrayStr, 0);
         Debug.Log(arrayStr.Length);
+
+        foreach (var item in valueCollection)
+        {
+            Debug.Log(item);
+        }
+
+        for (int i = 0; i < arrayStr.Length; i++)
+        {
+            Debug.Log(arrayStr[i]);
+        }
+
     }
 }
