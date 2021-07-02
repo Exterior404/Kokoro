@@ -45,13 +45,21 @@ public class OperatorQ : MonoBehaviour
     {// ?? 問當前的數值是不是 空的null
         byte? byeA = null;
         int a = byeA ?? -1;
-        Debug.Log(a);
+        Debug.Log(string.Format("a = {0}, byeA = {1}", a, byeA));
 
         byte? byeB = 1;
         int b = byeB ?? 2;
-        Debug.Log(b);
+        Debug.Log(string.Format("b = {0}, byeB = {1}", b, byeB));
 
+        //delgatB();//當前沒東西 會出錯
         delgatB = delgatB ?? delgatA;
+        delgatB();
+
+        delgatB = delgatB ?? MethedA;
+        delgatB();//因非空 所以沒替換
+
+        delgatB = null;
+        delgatB = delgatB ?? MethedA;
         delgatB();
 
         /* ??         
