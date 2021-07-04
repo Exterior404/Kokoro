@@ -51,3 +51,6 @@ struct & enum
 Reference
 Static
 Keys & Values
+靜態變數與方法
+instance
+GetSet
