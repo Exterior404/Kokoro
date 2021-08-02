@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Studio",
+      "path": "ALTIMIT OS/Studio.md"
+    },
+    {
+      "type": "file",
+      "title": "Tags",
+      "path": "Area/FileData/Tags.md"
+    }
+  ]
+}
