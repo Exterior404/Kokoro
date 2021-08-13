@@ -1,3 +1,0 @@
-[[RealCallBack]]
-[[PhotonNetwork]]
-[[TypedLobby]]
